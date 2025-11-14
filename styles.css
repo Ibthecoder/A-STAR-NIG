@@ -1498,7 +1498,8 @@ body {
   height: 400px;
   width: 100%;
   max-width: 325px;
-  background-image: url(/project-master/images/teamimg1.png);
+  background-image: url(images/teamimg1.png);
+  /* background-image: url(/project-master/images/teamimg1.png); */
   background-size: cover;
 }
 
@@ -1526,7 +1527,8 @@ body {
   height: 400px;
   width: 100%;
   max-width: 325px;
-  background-image: url(/project-master/images/WhatsApp\ Image\ 2025-11-05\ at\ 2.00.50\ PM.jpeg);
+  background-image: url(images/WhatsApp\ Image\ 2025-11-05\ at\ 2.00.50\ PM.jpeg);
+  /* background-image: url(/project-master/images/WhatsApp\ Image\ 2025-11-05\ at\ 2.00.50\ PM.jpeg); */
   background-size: cover;
 }
 
@@ -1554,7 +1556,8 @@ body {
   height: 400px;
   width: 100%;
   max-width: 325px;
-  background-image: url(/project-master/images/teamimg3.png);
+  /* background-image: url(/project-master/images/teamimg3.png); */
+  background-image: url(images/teamimg3.png);
   background-size: cover;
 }
 
@@ -1590,7 +1593,8 @@ body {
   height: 400px;
   width: 100%;
   max-width: 325px;
-  background-image: url(/project-master/images/teammemberfour.png);
+  background-image: url(images/teammemberfour.png);
+  /* background-image: url(/project-master/images/teammemberfour.png); */
   background-size: cover;
 }
 
@@ -1667,7 +1671,8 @@ span {
 .ourimg-one {
   height: 50px;
   width: 50px;
-  background-image: url(/project-master/images/customer1.jpg);
+  /* background-image: url(/project-master/images/customer1.jpg); */
+  background-image: url(images/customer1.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 50%;
@@ -1706,7 +1711,8 @@ span {
 .ourimg-one2 {
   height: 50px;
   width: 50px;
-  background-image: url(/project-master/images/customer2.jpg);
+  /* background-image: url(/project-master/images/customer2.jpg); */
+  background-image: url(images/customer2.jpg);
   background-size: cover;
   border-radius: 50%;
   border: 1.5px solid #e66202;
@@ -1762,7 +1768,8 @@ span {
 .ourimg-one3 {
   height: 50px;
   width: 50px;
-  background-image: url(/project-master/images/customer3.jpg);
+  /* background-image: url(/project-master/images/customer3.jpg); */
+  background-image: url(images/customer3.jpg);
   background-size: cover;
   border-radius: 50%;
   border: 1.5px solid #e66202;
@@ -1815,7 +1822,8 @@ span {
 
 /* partner section */
 .partner {
-  background-image: url(/project-master/images/partner.png);
+  /* background-image: url(/project-master/images/partner.png); */
+  background-image: url(images/partner.png);
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
