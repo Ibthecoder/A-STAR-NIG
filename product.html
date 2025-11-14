@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/703cd02033.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <a href="index.html" class="logo">
+            <img src="images/logo.png" height="55" alt="brandlogo" />
+          </a>
+
+          <div class="desktop-menu">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <!-- <a href="#service" class="nav-link">Service</a> -->
+            <a href="product.html" class="nav-link">Product</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <button class="btn btn-hero">Get Quote</button>
+          </div>
+
+          <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <svg
+              class="menu-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="4" x2="20" y1="12" y2="12" />
+              <line x1="4" x2="20" y1="6" y2="6" />
+              <line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+            <svg
+              class="close-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M18 6 6 18" />
+              <path d="m6 6 12 12" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+          <a href="check.html" class="mobile-nav-link">Home</a>
+          <a href="about.html" class="mobile-nav-link">About</a>
+          <a href="#service" class="mobile-nav-link">Service</a>
+          <a href="#product" class="mobile-nav-link">Product</a>
+          <a href="contact.html" class="mobile-nav-link">Contact</a>
+          <button class="btn btn-hero btn-full">Get Quote</button>
+        </div>
+      </div>
+    </nav>
+
+    <section id="product" class="products">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Products</h2>
+          <p class="section-description">
+            Durable, energy-efficient products designed for convenience and
+            sustainability.
+          </p>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/solar bulb.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 6 7 17l-5-5" />
+                  <path d="m22 10-7.5 7.5L13 16" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">Solar night Street vendor light</h3>
+              <p class="product-text">
+                Powerful, long-lasting illumination for any situation. Perfect
+                for homes and emergencies.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Charges automatically during
+                the day
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Provides bright light all
+                night
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Easy to install, no wiring
+                needed
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Lasts all night</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/rechargeable bulbround.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"
+                  />
+                  <path d="M9 18h6" />
+                  <path d="M10 22h4" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">Hifiidi Rechargeable Bulbs</h3>
+              <p class="product-text">
+                Energy-efficient LED bulbs with backup power. Never be left in
+                the dark during power outages.
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Compact and lightweight</p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Battery: Long-lasting
+                rechargeable battery
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Charges fast</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/multifunctiona solar panel.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 6 7 17l-5-5" />
+                  <path d="m22 10-7.5 7.5L13 16" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">Multifunctional Solar Panel</h3>
+              <p class="product-text">
+                Works as a touch lamp, power source, and more.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Power Source: Solar energy
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Battery: Long-lasting
+                rechargeable battery
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Multifunctional Use: Touch
+                lamp, charger, and power source
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Charging Time: 6–8 hours in
+                sunlight
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Material: Durable and portable
+                design
+              </p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/touch2.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"
+                  />
+                  <path d="M9 18h6" />
+                  <path d="M10 22h4" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">A-starRechargeable Touchlight</h3>
+              <p class="product-text">
+                Energy-efficient LED touchlights. Never be left in the dark
+                during power outages.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Lasts all night on full charge
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Compact and lightweight</p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Ideal for bedside, outdoor, or
+                emergency lighting
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Durable plastic material</p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Available in different colors
+              </p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/product2 (1).png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M10.827 16.379a6.082 6.082 0 0 1-8.618-7.002l5.412 1.45a6.082 6.082 0 0 1 7.002-8.618l-1.45 5.412a6.082 6.082 0 0 1 8.618 7.002l-5.412-1.45a6.082 6.082 0 0 1-7.002 8.618l1.45-5.412Z"
+                  />
+                  <path d="M12 12v.01" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">Rechargeable Fans</h3>
+              <p class="product-text">
+                Stay cool with eco-friendly cooling solutions.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Long-lasting rechargeable
+                battery
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Low noise and powerful airflow
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Lightweight and easy to carry
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Long-lasting rechargeable
+                battery
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Available in different colors
+              </p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/speaker.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 6 7 17l-5-5" />
+                  <path d="m22 10-7.5 7.5L13 16" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">JBL Portable Speaker</h3>
+              <p class="product-text">
+                A portable speaker is a compact, wireless device for
+                high-quality sound anywhere.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Plays all day on a single
+                charge
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Loud, clear sound with deep
+                bass
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Connects easily to any phone
+                via Bluetooth
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Small, light, and easy to
+                carry anywhere
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Perfect for parties, travel,
+                or outdoor fun
+              </p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/gmatepower.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 6 7 17l-5-5" />
+                  <path d="m22 10-7.5 7.5L13 16" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">GD-MATE Solar Power</h3>
+              <p class="product-text">
+                A portable solar power station is a small, solar-charged battery
+                you can carry anywhere.
+              </p>
+              <p><i class="fa-solid fa-circle"></i>3600 battery mah</p>
+              <p><i class="fa-solid fa-circle"></i>Light and easy to carry</p>
+              <p><i class="fa-solid fa-circle"></i>USB output</p>
+              <p>
+                <i class="fa-solid fa-circle"></i>3–4 bright bulbs – for
+                lighting your room
+              </p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/panel.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 6 7 17l-5-5" />
+                  <path d="m22 10-7.5 7.5L13 16" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">Multifunctional Solar Panel</h3>
+              <p class="product-text">
+                A solar panel that can charge many devices directly, like
+                phones, lights, and small gadgets.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Charges phones and small
+                devices via USB
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Can power LED lights</p>
+              <p><i class="fa-solid fa-circle"></i>Multiple output ports</p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Portable and easy to carry
+              </p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/gmate touchlight.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"
+                  />
+                  <path d="M9 18h6" />
+                  <path d="M10 22h4" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">
+                GD Mate Solar Rechargeable Touchlight
+              </h3>
+              <p class="product-text">
+                Energy-saving light that charges in the sun and lights up with a
+                simple touch.
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Solar charging</p>
+              <p><i class="fa-solid fa-circle"></i>Long life span</p>
+              <p><i class="fa-solid fa-circle"></i>Energy saving</p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Available in different colors
+              </p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/panel2.jpeg" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 6 7 17l-5-5" />
+                  <path d="m22 10-7.5 7.5L13 16" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">Multifunctional Solar Panel</h3>
+              <p class="product-text">
+                A solar panel that can charge many devices directly, like
+                phones, lights, and small gadgets.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Charges phones and small
+                devices via USB
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Can power LED lights</p>
+              <p><i class="fa-solid fa-circle"></i>Multiple output ports</p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Portable and easy to carry
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Available in different colors
+              </p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/handyfan.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M10.827 16.379a6.082 6.082 0 0 1-8.618-7.002l5.412 1.45a6.082 6.082 0 0 1 7.002-8.618l-1.45 5.412a6.082 6.082 0 0 1 8.618 7.002l-5.412-1.45a6.082 6.082 0 0 1-7.002 8.618l1.45-5.412Z"
+                  />
+                  <path d="M12 12v.01" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">Handy Fan</h3>
+              <p class="product-text">
+                Stay cool anywhere with our rechargeable handy fan –
+                lightweight, portable, and powerful, perfect for home, office,
+                or outdoor use!
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Long-lasting rechargeable
+                battery
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Powerful airflow</p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Durable design – built to
+                lasty
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Quiet operation – stay
+                comfortable without noise
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Available in different colors
+              </p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/camera.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"
+                  />
+                  <circle cx="12" cy="13" r="3" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">Solar monitoring light and camera</h3>
+              <p class="product-text">
+                Complete outdoor lighting and security systems. Advanced
+                technology for urban infrastructure.
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Fast solar charging</p>
+              <p><i class="fa-solid fa-circle"></i>Bright LED floodlight</p>
+              <p><i class="fa-solid fa-circle"></i>Wide-angle lens coverage</p>
+              <p><i class="fa-solid fa-circle"></i>Infrared night vision</p>
+              <p><i class="fa-solid fa-circle"></i>Smart motion detection</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/hej fan (1).png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M10.827 16.379a6.082 6.082 0 0 1-8.618-7.002l5.412 1.45a6.082 6.082 0 0 1 7.002-8.618l-1.45 5.412a6.082 6.082 0 0 1 8.618 7.002l-5.412-1.45a6.082 6.082 0 0 1-7.002 8.618l1.45-5.412Z"
+                  />
+                  <path d="M12 12v.01" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">HEJ Hand Fan</h3>
+              <p class="product-text">
+                Enjoy refreshing comfort with sustainable cooling.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Long-lasting rechargeable
+                battery
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Easy to carry anywhere</p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Quiet and powerful airflow
+              </p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/panel3.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 6 7 17l-5-5" />
+                  <path d="m22 10-7.5 7.5L13 16" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">GD-MATE Solar Power</h3>
+              <p class="product-text">
+                A solar power panel that can turn sunlight into electricity to
+                charge batteries or run small devices.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Converts sunlight into
+                electricity
+              </p>
+              <p><i class="fa-solid fa-circle"></i>Lightweight and portable</p>
+              <p><i class="fa-solid fa-circle"></i>Durable and easy to use</p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Portable and easy to carry
+              </p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/streetlight.png" />
+              <div class="product-overlay"></div>
+              <div class="product-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"
+                  />
+                  <path d="M9 18h6" />
+                  <path d="M10 22h4" />
+                </svg>
+              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">Solar Powered Street Light</h3>
+              <p class="product-text">
+                Eco-friendly light that charges by day and brightens streets at
+                night.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Solar Panel: Charges from
+                sunlight.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Battery: Works at night, even
+                on cloudy days.
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Weatherproof: Can stay outside
+                in rain or sun
+              </p>
+              <p>
+                <i class="fa-solid fa-circle"></i>Automatic: Turns on at night,
+                off in the morning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-company">
+            <div class="footer-logo">
+              <div class="footer-logo-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"
+                  />
+                  <path d="M9 18h6" />
+                  <path d="M10 22h4" />
+                </svg>
+              </div>
+              <div class="footer-logo-text">
+                <span class="footer-logo-title">A STAR NIG CO LTD</span>
+                <span class="footer-logo-subtitle">Lighting Solutions</span>
+              </div>
+            </div>
+            <p class="footer-description">
+              A subsidiary of Guagoh International (China). Leading manufacturer
+              and wholesale dealer in lighting materials across Nigeria.
+            </p>
+          </div>
+          
+          <div class="footer-links">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-products">
+            <h3 class="footer-heading">Products</h3>
+            <ul>
+              <li>Solar Torchlights</li>
+              <li>Rechargeable Bulbs</li>
+              <li>Solar Fans</li>
+              <li>Street Lights</li>
+              <li>Security Cameras</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="currentYear"></span> A STAR NIG CO LTD. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer> -->
+    <div class="footer">
+      <div class="footer1">
+        <img src="images/salford-removebg-preview.png" alt="" />
+        <p>
+          A STAR NIG. CO. LTD — Excellence in Lighting and Energy Solutions.
+        </p>
+        <div class="footericons">
+          <a
+            href="https://www.instagram.com/astarnigco?igsh=MXdoYzVwbWswa2dqcg=="
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/share/1EovEn5DHP/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <i class="fa-brands fa-x-twitter"></i>
+          <a
+            href="https://www.tiktok.com/@a.star.nig.co.ltd?_r=1&_t=ZS-916P76ht6ED"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="footerr1">
+          <h3>Quick Links</h3>
+          <a href="check.html"><p>Home</p></a>
+          <a href="about.html"><p>About Us</p></a>
+          <p>Services</p>
+          <p>Product</p>
+          <a href="contact.html"><p>Contact</p></a>
+        </div>
+        <div class="footerr2">
+          <h3>Privacy</h3>
+          <p>Privacy Policy</p>
+          <p>Terms & Conditions</p>
+        </div>
+        <div class="footerr3">
+          <h3>Contact</h3>
+          <p>No 42 Iweka road Onitcha Anambra State, Nigeria</p>
+          <p>+234 707 795 1738</p>
+          <p>+234 808 964 1153</p>
+          <p>astarnigerialimited@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
